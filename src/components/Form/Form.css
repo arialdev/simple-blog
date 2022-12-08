@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@600&display=swap');
+
+label {
+  /* margin: 1em; */
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+form {
+  display: inline-grid;
+}
+
+textarea,
+input {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+}
+
+textarea {
+  width: 32em;
+  height: 16em;
+}
+
+h2 {
+  font-family: 'Alexandria', sans-serif;
+}
+
+.submit {
+  width: fit-content;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 1.5em;
+  align-items: center;
+  margin: 1em auto;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
